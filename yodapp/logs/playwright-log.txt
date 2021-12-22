@@ -1,0 +1,38 @@
+{"level":30,"time":"2021-12-22T19:21:43.032Z","pid":12156,"hostname":"Jaque-Note","msg":"Listening on 58588"}
+{"level":30,"time":"2021-12-22T19:21:43.245Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:43.246Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:43.250Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:43.250Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:43.255Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2021-12-22T19:21:44.501Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method newBrowser"}
+{"level":30,"time":"2021-12-22T19:21:44.513Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method newPage"}
+{"level":30,"time":"2021-12-22T19:21:44.514Z","pid":12156,"hostname":"Jaque-Note","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-22T19:21:44.581Z","pid":12156,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2021-12-22T19:21:45.174Z","pid":12156,"hostname":"Jaque-Note","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-22T19:21:45.174Z","pid":12156,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2021-12-22T19:21:51.402Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method newPage"}
+{"level":30,"time":"2021-12-22T19:21:51.413Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2021-12-22T19:21:51.414Z","pid":12156,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=h3 >> text=Destaque in page."}
+{"level":30,"time":"2021-12-22T19:21:51.467Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2021-12-22T19:21:51.472Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2021-12-22T19:21:51.686Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2021-12-22T19:21:51.689Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:51.693Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:51.696Z","pid":12156,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2021-12-22T19:21:51.697Z","pid":12156,"hostname":"Jaque-Note","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-22T19:21:51.697Z","pid":12156,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2021-12-22T19:21:51.710Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:51.714Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:51.719Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-22T19:21:51.719Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-22T19:21:51.723Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2021-12-22T19:21:51.723Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2021-12-22T19:21:51.731Z","pid":12156,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2021-12-22T19:21:51.731Z","pid":12156,"hostname":"Jaque-Note","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-22T19:21:51.731Z","pid":12156,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2021-12-22T19:21:51.742Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method closeContext"}
+{"level":30,"time":"2021-12-22T19:21:51.968Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method closeContext"}
+{"level":30,"time":"2021-12-22T19:21:52.047Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:52.047Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2021-12-22T19:21:52.208Z","pid":12156,"hostname":"Jaque-Note","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2021-12-22T19:21:52.517Z","pid":12156,"hostname":"Jaque-Note","msg":"End of node method closeAllBrowsers"}
