@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation       Suite de testes de pesquisar produto
 
-Resource        base.robot
+Resource        base_old.robot
 
 Test Setup      Start Session
 Test Teardown       End Session
