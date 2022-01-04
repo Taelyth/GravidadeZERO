@@ -1,65 +1,144 @@
-{"level":30,"time":"2021-12-29T14:47:50.361Z","pid":37284,"hostname":"Jaque-Note","msg":"Listening on 54182"}
-{"level":30,"time":"2021-12-29T14:47:50.451Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:47:50.453Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:47:50.458Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:47:50.459Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:47:50.467Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2021-12-29T14:47:51.829Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method newBrowser"}
-{"level":30,"time":"2021-12-29T14:47:51.835Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method newPage"}
-{"level":30,"time":"2021-12-29T14:47:51.836Z","pid":37284,"hostname":"Jaque-Note","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-12-29T14:47:51.926Z","pid":37284,"hostname":"Jaque-Note","msg":"Changed active context"}
-{"level":30,"time":"2021-12-29T14:47:52.561Z","pid":37284,"hostname":"Jaque-Note","msg":"Video path: undefined"}
-{"level":30,"time":"2021-12-29T14:47:52.562Z","pid":37284,"hostname":"Jaque-Note","msg":"Changed active page"}
-{"level":30,"time":"2021-12-29T14:47:55.219Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method newPage"}
-{"level":30,"time":"2021-12-29T14:47:55.224Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method click"}
-{"level":30,"time":"2021-12-29T14:47:55.225Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with text=Novo in page."}
-{"level":30,"time":"2021-12-29T14:47:56.336Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method click"}
-{"level":30,"time":"2021-12-29T14:47:56.340Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2021-12-29T14:47:56.341Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.card-header-title >> text=Cadastrar novo usuário in page."}
-{"level":30,"time":"2021-12-29T14:47:56.363Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2021-12-29T14:47:56.367Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
-{"level":30,"time":"2021-12-29T14:47:56.367Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[placeholder^=\"Nome\"] in page."}
-{"level":30,"time":"2021-12-29T14:47:57.427Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method fillText"}
-{"level":30,"time":"2021-12-29T14:47:57.431Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
-{"level":30,"time":"2021-12-29T14:47:57.431Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Email\"] in page."}
-{"level":30,"time":"2021-12-29T14:47:58.472Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method fillText"}
-{"level":30,"time":"2021-12-29T14:47:58.480Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
-{"level":30,"time":"2021-12-29T14:47:58.480Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with id=insta in page."}
-{"level":30,"time":"2021-12-29T14:47:59.555Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method fillText"}
-{"level":30,"time":"2021-12-29T14:47:59.560Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
-{"level":30,"time":"2021-12-29T14:47:59.560Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.ordem select in page."}
-{"level":30,"time":"2021-12-29T14:48:00.624Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
-{"level":30,"time":"2021-12-29T14:48:00.629Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method click"}
-{"level":30,"time":"2021-12-29T14:48:00.629Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[placeholder$=\"nascimento\"] in page."}
-{"level":30,"time":"2021-12-29T14:48:01.711Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method click"}
-{"level":30,"time":"2021-12-29T14:48:01.718Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
-{"level":30,"time":"2021-12-29T14:48:01.718Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.datepicker-header .control:nth-of-type(1) select in page."}
-{"level":30,"time":"2021-12-29T14:48:02.784Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
-{"level":30,"time":"2021-12-29T14:48:02.789Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
-{"level":30,"time":"2021-12-29T14:48:02.789Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=(//header[@class=\"datepicker-header\"]//select)[2] in page."}
-{"level":30,"time":"2021-12-29T14:48:03.854Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
-{"level":30,"time":"2021-12-29T14:48:03.858Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method click"}
-{"level":30,"time":"2021-12-29T14:48:03.858Z","pid":37284,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class, \"datepicker-cell\")]//span[text()=\"18\"] in page."}
-{"level":30,"time":"2021-12-29T14:48:04.945Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method click"}
-{"level":30,"time":"2021-12-29T14:48:09.971Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2021-12-29T14:48:10.118Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2021-12-29T14:48:10.122Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:48:10.124Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:48:10.127Z","pid":37284,"hostname":"Jaque-Note","msg":"Changed active context"}
-{"level":30,"time":"2021-12-29T14:48:10.127Z","pid":37284,"hostname":"Jaque-Note","msg":"Changing current active page"}
-{"level":30,"time":"2021-12-29T14:48:10.127Z","pid":37284,"hostname":"Jaque-Note","msg":"Changed active page"}
-{"level":30,"time":"2021-12-29T14:48:10.137Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:48:10.140Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:48:10.144Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-29T14:48:10.144Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-29T14:48:10.146Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2021-12-29T14:48:10.147Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2021-12-29T14:48:10.169Z","pid":37284,"hostname":"Jaque-Note","msg":"Changed active context"}
-{"level":30,"time":"2021-12-29T14:48:10.169Z","pid":37284,"hostname":"Jaque-Note","msg":"Changing current active page"}
-{"level":30,"time":"2021-12-29T14:48:10.169Z","pid":37284,"hostname":"Jaque-Note","msg":"Changed active page"}
-{"level":30,"time":"2021-12-29T14:48:10.171Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method closeContext"}
-{"level":30,"time":"2021-12-29T14:48:10.221Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method closeContext"}
-{"level":30,"time":"2021-12-29T14:48:10.229Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:48:10.229Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2021-12-29T14:48:10.334Z","pid":37284,"hostname":"Jaque-Note","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2021-12-29T14:48:10.596Z","pid":37284,"hostname":"Jaque-Note","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-01-04T18:39:07.376Z","pid":14056,"hostname":"Jaque-Note","msg":"Listening on 51023"}
+{"level":30,"time":"2022-01-04T18:39:07.517Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:07.519Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:07.527Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:07.527Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:07.536Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-01-04T18:39:09.091Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-01-04T18:39:09.098Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-01-04T18:39:09.099Z","pid":14056,"hostname":"Jaque-Note","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-01-04T18:39:09.145Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2022-01-04T18:39:09.941Z","pid":14056,"hostname":"Jaque-Note","msg":"Video path: undefined"}
+{"level":30,"time":"2022-01-04T18:39:09.941Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2022-01-04T18:39:11.099Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method newPage"}
+{"level":30,"time":"2022-01-04T18:39:11.110Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:11.111Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with text=Novo in page."}
+{"level":30,"time":"2022-01-04T18:39:11.303Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:11.314Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:11.315Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.card-header-title >> text=Cadastrar novo usuário in page."}
+{"level":30,"time":"2022-01-04T18:39:11.712Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:11.724Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:11.725Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name=\"nome\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:11.824Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:11.832Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:11.832Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name=\"email\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:11.884Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:11.890Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:11.890Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.ordem select in page."}
+{"level":30,"time":"2022-01-04T18:39:11.962Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:11.989Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:11.990Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name$=\"nascimento\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:12.208Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.215Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:12.215Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.datepicker-header .control:nth-of-type(1) select in page."}
+{"level":30,"time":"2022-01-04T18:39:12.289Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:12.295Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:12.295Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=(//header[@class=\"datepicker-header\"]//select)[2] in page."}
+{"level":30,"time":"2022-01-04T18:39:12.385Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:12.390Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.390Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class, \"datepicker-cell\")]//span[text()=\"18\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:12.462Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.469Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:12.470Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with id=insta in page."}
+{"level":30,"time":"2022-01-04T18:39:12.540Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:12.556Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.556Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=//input[@value=\"Cavaleiro Jedi\"]/../span[@class=\"check\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:12.633Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.639Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.639Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name=\"comunications\"] + span in page."}
+{"level":30,"time":"2022-01-04T18:39:12.733Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.741Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.742Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2022-01-04T18:39:12.963Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:12.972Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:12.972Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.toast div >> text=Usuário cadastrado com sucesso! in page."}
+{"level":30,"time":"2022-01-04T18:39:12.987Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:12.994Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-01-04T18:39:13.230Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-01-04T18:39:13.234Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:13.237Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:13.240Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2022-01-04T18:39:13.240Z","pid":14056,"hostname":"Jaque-Note","msg":"Changing current active page"}
+{"level":30,"time":"2022-01-04T18:39:13.240Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2022-01-04T18:39:13.248Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:13.250Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:13.252Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:13.252Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:13.254Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:13.255Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:13.264Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2022-01-04T18:39:13.264Z","pid":14056,"hostname":"Jaque-Note","msg":"Changing current active page"}
+{"level":30,"time":"2022-01-04T18:39:13.264Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2022-01-04T18:39:13.266Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-01-04T18:39:13.353Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-01-04T18:39:13.383Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:13.384Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:13.390Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-01-04T18:39:15.044Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-01-04T18:39:15.049Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-01-04T18:39:15.049Z","pid":14056,"hostname":"Jaque-Note","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-01-04T18:39:15.063Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2022-01-04T18:39:16.047Z","pid":14056,"hostname":"Jaque-Note","msg":"Video path: undefined"}
+{"level":30,"time":"2022-01-04T18:39:16.047Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2022-01-04T18:39:17.849Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method newPage"}
+{"level":30,"time":"2022-01-04T18:39:17.866Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:17.866Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with text=Novo in page."}
+{"level":30,"time":"2022-01-04T18:39:18.089Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:18.097Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:18.097Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.card-header-title >> text=Cadastrar novo usuário in page."}
+{"level":30,"time":"2022-01-04T18:39:18.479Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:18.495Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:18.495Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name=\"nome\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:18.562Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:18.566Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:18.566Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name=\"email\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:18.626Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:18.630Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:18.631Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.ordem select in page."}
+{"level":30,"time":"2022-01-04T18:39:18.697Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:18.704Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:18.704Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name$=\"nascimento\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:18.968Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:18.974Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:18.974Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.datepicker-header .control:nth-of-type(1) select in page."}
+{"level":30,"time":"2022-01-04T18:39:19.045Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:19.049Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:19.049Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=(//header[@class=\"datepicker-header\"]//select)[2] in page."}
+{"level":30,"time":"2022-01-04T18:39:19.130Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method selectOption"}
+{"level":30,"time":"2022-01-04T18:39:19.135Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:19.136Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class, \"datepicker-cell\")]//span[text()=\"24\"] in page."}
+{"level":30,"time":"2022-01-04T18:39:19.237Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:19.242Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:19.242Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with id=insta in page."}
+{"level":30,"time":"2022-01-04T18:39:19.282Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method fillText"}
+{"level":30,"time":"2022-01-04T18:39:19.293Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:19.293Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=input[name=\"comunications\"] + span in page."}
+{"level":30,"time":"2022-01-04T18:39:19.407Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:19.411Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method click"}
+{"level":30,"time":"2022-01-04T18:39:19.411Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2022-01-04T18:39:19.612Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method click"}
+{"level":30,"time":"2022-01-04T18:39:19.619Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:19.619Z","pid":14056,"hostname":"Jaque-Note","msg":"Strict mode is enabled, find Locator with css=.toast div >> text=Oops! O email é incorreto. in page."}
+{"level":30,"time":"2022-01-04T18:39:19.637Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-01-04T18:39:19.645Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-01-04T18:39:19.885Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-01-04T18:39:19.890Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:19.892Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:19.894Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2022-01-04T18:39:19.894Z","pid":14056,"hostname":"Jaque-Note","msg":"Changing current active page"}
+{"level":30,"time":"2022-01-04T18:39:19.894Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2022-01-04T18:39:19.902Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:19.906Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:19.909Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:19.909Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:19.912Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:19.912Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-01-04T18:39:19.918Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active context"}
+{"level":30,"time":"2022-01-04T18:39:19.919Z","pid":14056,"hostname":"Jaque-Note","msg":"Changing current active page"}
+{"level":30,"time":"2022-01-04T18:39:19.919Z","pid":14056,"hostname":"Jaque-Note","msg":"Changed active page"}
+{"level":30,"time":"2022-01-04T18:39:19.921Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-01-04T18:39:19.996Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-01-04T18:39:20.008Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:20.009Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-01-04T18:39:20.240Z","pid":14056,"hostname":"Jaque-Note","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-01-04T18:39:22.064Z","pid":14056,"hostname":"Jaque-Note","msg":"End of node method closeAllBrowsers"}
