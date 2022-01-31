@@ -32,7 +32,7 @@ Library  String
 ---
 
 ### Créditos
-[<img src="assets\QANinja-Logo.png" width="30%"/>][QANinja]
+[<img src="assets\QANinja-Logo.png" width="30%" style="background-color:black"/>][QANinja]
 
 
 <!-- links -->
