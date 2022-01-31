@@ -32,7 +32,7 @@ Library  String
 ---
 
 ### Créditos
-[<img src="assets\QANinja-Logo.png" width="20%"/>][QANinja]
+[<img src="assets\QANinja-Logo-black.png" width="20%"/>][QANinja]
 
 
 <!-- links -->
@@ -40,4 +40,4 @@ Library  String
 [Yodapp]: https://yodapp-testing.vercel.app
 
 <!-- imagens -->
-[QANinja-Logo]: assets/QANinja-Logo.png (QANinja-logo)
+[QANinja-Logo]: assets/QANinja-Logo-black.png (QANinja-logo)
