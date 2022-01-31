@@ -32,7 +32,7 @@ Library  String
 ---
 
 ### Créditos
-[<img src="C:\Users\Jaque\PycharmProjects\GravidadeZERO\assets\QANinja-Logo.png" width="20%"/>][QANinja]
+[<img src="assets\QANinja-Logo.png" width="20%"/>][QANinja]
 
 
 <!-- links -->
