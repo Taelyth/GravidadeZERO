@@ -11,8 +11,8 @@ Projeto criado para acompanhar as aulas do curso [GravidadeZERO][QANinja] em Rob
     * [Pré-Requisitos](#pré-requisitos)
     * [Glossário](#glossário)
   * [Getgeeks](#getgeeks)
-    * [Pré-Requisitos](#pré-requisitos)
-    * [Glossário](#glossário)
+    * [Pré-Requisitos](#pré-requisitos-1)
+    * [Glossário](#glossário-1)
   * [Créditos](#créditos)
 
 ---
@@ -87,6 +87,7 @@ Para os testes aprendi a subir uma aplicação Web utilizando o **Heroku** e **E
 ---
 
 ### Glossário
+**--Ainda não finalizado--**
 
 `actions.robot` Arquivo contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
 
