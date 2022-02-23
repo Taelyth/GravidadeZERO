@@ -2,9 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/getgeeks/package-v1/apis/gateway" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/getgeeks/package-v1/apis/geeks" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/getgeeks/package-v1/apis/users" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/getgeeks/package-v1/web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/getgeeks/deploys/package-v1/apis/gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/getgeeks/deploys/package-v1/apis/geeks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/getgeeks/deploys/package-v1/apis/users" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/getgeeks/deploys/package-v1/web" vcs="Git" />
   </component>
 </project>
