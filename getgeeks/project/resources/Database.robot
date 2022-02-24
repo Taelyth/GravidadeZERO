@@ -2,15 +2,18 @@
 Documentation       Database Helpers
 
 Library     DatabaseLibrary
+Library     factories/Database.py
 
 *** Keywords ***
 Connect To Postgres
+    [Arguments]     ${database}
+
     Connect To Database     psycopg2
-    ...                     lwoiywgo
-    ...                     lwoiywgo
-    ...                     sAhvTAeU4sSG3Iiu9hRKTE6-b0pvzUtk
-    ...                     jelani.db.elephantsql.com
-    ...                     5432
+    ...                     ${database}[banco]
+    ...                     ${database}[usuario]
+    ...                     ${database}[senha]
+    ...                     ${database}[server]
+    ...                     ${database}[porta]
 
 Reset Env
     Execute Sql String      DELETE from public.geeks

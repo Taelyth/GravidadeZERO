@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/yodapp/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/tasks" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/getgeeks/deploys" />
     </content>

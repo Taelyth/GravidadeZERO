@@ -83,23 +83,58 @@ Para os testes aprendi a subir uma aplicação Web utilizando o **Heroku** e **E
   - Localizar e substituir as URLs `http://localhost:3333` dentro da pasta **web** pela url criada na aplicação Gateway.
   - Subir a aplicação Web.
     
+Obs: o arquivo [getgeeks-package-v2.zip](getgeeks/getgeeks-package-v2.zip) foi utilizado nas aulas posteriores para "arrumar um bug" gerado na aplicação Web.
+
+Para subí-lo na Heroku, é só substituir todo o conteúdo da pasta `packages\web`, aplicar a mesma alteração do `localhost` feita anteriormente e subit no git com os comandos:
+```
+cd getgeeks/deploys/packages/web
+git add .
+git commit -m "publicando a versão 2 da aplicação web"
+git push heroku master
+```
+* Os comandos acima estão descritos na página de Deploy da aplicação da Heroku.
+
+Para executar o arquivo [Delorean.robot](getgeeks/project/tasks/Delorean.robot), que faz a limpeza do banco de dados, é necessário criar um arquivo chamado `Database.py`, que deve conter as seguintes informações:
+
+```python
+def factory_database():
+    database = {
+        'banco': 'Preencher com o nome do database, que é igual ao User',
+        'usuario': 'Preencher com o User',
+        'senha': 'Preencher com o Password',
+        'server': 'Preencher com o Server',
+        'porta': '5432, que é a porta padrão do PostgreSQL'
+    }
+    return database
+```
+Preencher com as informações do [ElephantSQL].
 
 ---
 
 ### Glossário
 **--Ainda não finalizado--**
 
-`actions.robot` Arquivo contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
+`Actions.robot` Arquivo contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
 
-`base.robot` Arquivo base com as bibliotecas, url, e Setup/Teardown dos testes.
+`Base.robot` Arquivo base com as bibliotecas, url, e Setup/Teardown dos testes.
+
+`Database.robot` Arquivo em robot para login e reset de ambiente (database) utilizando Robot.
+
+`Delorean.robot` Arquivo contendo a `Task` do reset de ambiente, que é executado a cada teste.
 
 `tests` Diretório contendo os testes realizados, onde são chamadas as Keywords do actions.robot.
 
-`users.py` Massa de dados usada nos testes do arquivo cadastro.robot.
-
-`extra` Diretório com alguns estudos feitos utilizando outras urls.
+`users.py` Massa de dados usada nos testes do arquivo Signup.robot.
 
 `logs` Diretório com os logs gerados pelo Robot Framework.
+
+`docs` Diretório contendo o arquivo em BDD utilizado para criar os testes.
+
+`run.bat` e `run.sh`: executáveis criados para rodar os testes com os comandos:
+
+Dentro da pasta `getgeeks/project`:
+- No PowerShell ou Prompt: `.\run.bat`
+- No Git Bash: `./run.sh`
 
 ---
 
