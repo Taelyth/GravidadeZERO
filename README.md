@@ -118,11 +118,13 @@ Preencher com as informações do [ElephantSQL].
 
 `Base.robot` Arquivo base com as bibliotecas, url, e Setup/Teardown dos testes.
 
-`Database.robot` Arquivo em robot para login e reset de ambiente (database) utilizando Robot.
+`Database.robot` Arquivo em robot para operações no Database (SQL) utilizando Robot.
 
 `Delorean.robot` Arquivo contendo a `Task` do reset de ambiente, que é executado a cada teste.
 
-`tests` Diretório contendo os testes realizados, onde são chamadas as Keywords do actions.robot.
+`Helpers.robot` Arquivo contendo Keywords de ajuda para os testes realizados (como criar usuário pré-definido no database).
+
+`tests` Diretório contendo os testes realizados, onde são chamadas as Keywords do Actions.robot.
 
 `users.py` Massa de dados usada nos testes do arquivo Signup.robot.
 

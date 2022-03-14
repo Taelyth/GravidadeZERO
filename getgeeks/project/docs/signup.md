@@ -55,3 +55,15 @@ Dado que acesso a página de cadastro
 Quando submeto o cadastro sem preencher o formulário
 
 Então devo ver uma mensagem informando que todos os campos são obrigatórios
+
+---
+
+##### Cenário: Senha muito curta
+
+Dado que acesso a página de cadastro
+
+Quando submeto o cadastro com uma senha com menos de 6 dígitos
+
+Então vejo a mensagem de alerta:
+
+    "Informe uma senha com pelo menos 6 caracteres"

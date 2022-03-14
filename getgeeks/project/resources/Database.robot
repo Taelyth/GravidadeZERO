@@ -6,7 +6,7 @@ Library     factories/Database.py
 
 *** Keywords ***
 Connect To Postgres
-    [Arguments]     ${database}
+    ${database}     Factory Database
 
     Connect To Database     psycopg2
     ...                     ${database}[banco]
@@ -17,4 +17,12 @@ Connect To Postgres
 
 Reset Env
     Execute Sql String      DELETE from public.geeks
+    #Execute Sql String      TRUNCATE public.geeks RESTART IDENTITY -> Truncate reseta a PK (primary key)
     Execute Sql String      DELETE from public.users
+
+Insert User
+    [Arguments]     ${u}
+
+    ${q}    Set Variable    INSERT INTO public.users (name, email, password_hash, is_geek) values ('${u}[name] ${u}[lastname]', '${u}[email]', '${u}[password]', false)
+
+    Execute Sql String      ${q}

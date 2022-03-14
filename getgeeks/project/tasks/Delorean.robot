@@ -6,9 +6,7 @@ Resource            ${EXEC_DIR}/resources/Database.robot
 *** Tasks ***
 Back To The Past
 
-    ${database}     Factory Database
-
-    Connect To Postgres     ${database}
+    Connect To Postgres
     Reset Env
     Disconnect from Database
 
