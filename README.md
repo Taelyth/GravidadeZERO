@@ -114,23 +114,25 @@ Preencher com as informações do [ElephantSQL].
 ### Glossário
 **--Ainda não finalizado--**
 
-`Actions.robot` Arquivo contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
-
 `Base.robot` Arquivo base com as bibliotecas, url, e Setup/Teardown dos testes.
 
 `Database.robot` Arquivo em robot para operações no Database (SQL) utilizando Robot.
 
+`Helpers.robot` Arquivo contendo Keywords de ajuda para os testes realizados (como criar usuário pré-definido no database).
+
 `Delorean.robot` Arquivo contendo a `Task` do reset de ambiente, que é executado a cada teste.
 
-`Helpers.robot` Arquivo contendo Keywords de ajuda para os testes realizados (como criar usuário pré-definido no database).
+`actions` Diretório contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
 
 `tests` Diretório contendo os testes realizados, onde são chamadas as Keywords do Actions.robot.
 
-`users.py` Massa de dados usada nos testes do arquivo Signup.robot.
+`Users.py` Massa de dados usada nos testes do arquivo Signup.robot.
 
 `logs` Diretório com os logs gerados pelo Robot Framework.
 
 `docs` Diretório contendo o arquivo em BDD utilizado para criar os testes.
+
+---
 
 `run.bat` e `run.sh`: executáveis criados para rodar os testes com os comandos:
 

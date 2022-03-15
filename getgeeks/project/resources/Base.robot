@@ -3,9 +3,12 @@ Documentation       Base Test
 
 Library     Browser
 Library     Collections
+
 Library     factories/Users.py
 
-Resource    Actions.robot
+Resource    actions/AuthActions.robot
+Resource    actions/SignupActions.robot
+
 Resource    Database.robot
 Resource    Helpers.robot
 

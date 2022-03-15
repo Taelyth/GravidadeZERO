@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220314 14:25:07.946" rpa="false" schemaversion="2">
-<suite id="s1" name="Signup" source="C:\Users\Jaque\PycharmProjects\GravidadeZERO\getgeeks\project\tests\Signup.robot">
-<test id="s1-t1" name="Required Fields">
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220315 16:31:32.842" rpa="false" schemaversion="2">
+<suite id="s1" name="Login" source="C:\Users\Jaque\PycharmProjects\GravidadeZERO\getgeeks\project\tests\Login.robot">
+<test id="s1-t1" name="User Login">
 <kw name="Start Session" library="Base" type="SETUP">
 <kw name="New Browser" library="Browser">
 <arg>chromium</arg>
@@ -10,199 +10,139 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20220314 14:25:09.050" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 500.0, "tracesDir": "C:\\Users\\Jaque\\PycharmProjects\\GravidadeZERO\\getgeeks\\project\\logs\\browser\\traces\\a0b0e3ab-d491-4b9e-bfae-52f153a60b49"}</msg>
-<msg timestamp="20220314 14:25:12.405" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":500,"tracesDir":"C:\\Users\\Jaque\\PycharmProjects\\GravidadeZERO\\getgeeks\\project\\logs\\browser\\traces\\a0b0e3ab-d491-4b9e-bfae-52f153a60b49"}</msg>
-<status status="PASS" starttime="20220314 14:25:09.050" endtime="20220314 14:25:12.405"/>
+<msg timestamp="20220315 16:31:33.880" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 500.0, "tracesDir": "C:\\Users\\Jaque\\PycharmProjects\\GravidadeZERO\\getgeeks\\project\\logs\\browser\\traces\\080f0c85-b1a8-4fe6-bf11-7625e68ec2c3"}</msg>
+<msg timestamp="20220315 16:31:36.959" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":500,"tracesDir":"C:\\Users\\Jaque\\PycharmProjects\\GravidadeZERO\\getgeeks\\project\\logs\\browser\\traces\\080f0c85-b1a8-4fe6-bf11-7625e68ec2c3"}</msg>
+<status status="PASS" starttime="20220315 16:31:33.880" endtime="20220315 16:31:36.959"/>
 </kw>
 <kw name="New Page" library="Browser">
 <arg>${BASE_URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20220314 14:25:15.328" level="INFO">Successfully initialized new page object and opened url: https://getgeeks-taelyth.herokuapp.com</msg>
-<msg timestamp="20220314 14:25:15.329" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20220314 14:25:12.405" endtime="20220314 14:25:15.329"/>
+<msg timestamp="20220315 16:31:39.935" level="INFO">Successfully initialized new page object and opened url: https://getgeeks-taelyth.herokuapp.com</msg>
+<msg timestamp="20220315 16:31:39.935" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20220315 16:31:36.959" endtime="20220315 16:31:39.935"/>
 </kw>
-<status status="PASS" starttime="20220314 14:25:09.050" endtime="20220314 14:25:15.329"/>
+<status status="PASS" starttime="20220315 16:31:33.880" endtime="20220315 16:31:39.936"/>
 </kw>
-<kw name="Create List" library="BuiltIn">
-<var>@{expected_alerts}</var>
-<arg>Cadê o seu nome?</arg>
-<arg>E o sobrenome?</arg>
-<arg>O email é importante também!</arg>
-<arg>Agora só falta a senha!</arg>
-<doc>Returns a list containing given items.</doc>
-<msg timestamp="20220314 14:25:15.329" level="INFO">@{expected_alerts} = [ Cadê o seu nome? | E o sobrenome? | O email é importante também! | Agora só falta a senha! ]</msg>
-<status status="PASS" starttime="20220314 14:25:15.329" endtime="20220314 14:25:15.329"/>
+<kw name="Factory User Login" library="Users">
+<var>${user}</var>
+<msg timestamp="20220315 16:31:39.936" level="INFO">${user} = {'name': 'Jacks', 'lastname': 'Tests', 'email': 'teste@teste.com', 'password': 'pwd123'}</msg>
+<status status="PASS" starttime="20220315 16:31:39.936" endtime="20220315 16:31:39.936"/>
 </kw>
-<kw name="Go To Signup Form" library="Actions">
+<kw name="Go To Login Page" library="AuthActions">
 <kw name="Go To" library="Browser">
-<arg>${BASE_URL}/signup</arg>
+<arg>${BASE_URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Navigates to the given ``url``.</doc>
-<msg timestamp="20220314 14:25:16.681" level="INFO">Successfully opened URL https://getgeeks-taelyth.herokuapp.com/signup</msg>
-<status status="PASS" starttime="20220314 14:25:15.330" endtime="20220314 14:25:16.681"/>
+<msg timestamp="20220315 16:31:40.964" level="INFO">Successfully opened URL https://getgeeks-taelyth.herokuapp.com</msg>
+<status status="PASS" starttime="20220315 16:31:39.936" endtime="20220315 16:31:40.964"/>
 </kw>
 <kw name="Wait For Elements State" library="Browser">
-<arg>css=.signup-form</arg>
+<arg>css=.login-form</arg>
 <arg>visible</arg>
 <arg>5</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<msg timestamp="20220314 14:25:16.700" level="INFO">Waited for Element with selector css=.signup-form at state visible</msg>
-<status status="PASS" starttime="20220314 14:25:16.681" endtime="20220314 14:25:16.700"/>
+<msg timestamp="20220315 16:31:40.983" level="INFO">Waited for Element with selector css=.login-form at state visible</msg>
+<status status="PASS" starttime="20220315 16:31:40.964" endtime="20220315 16:31:40.983"/>
 </kw>
-<status status="PASS" starttime="20220314 14:25:15.330" endtime="20220314 14:25:16.700"/>
+<status status="PASS" starttime="20220315 16:31:39.936" endtime="20220315 16:31:40.983"/>
 </kw>
-<kw name="Submit Signup Form" library="Actions">
+<kw name="Fill Credentials" library="AuthActions">
+<arg>${user}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=email</arg>
+<arg>${user}[email]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20220315 16:31:40.984" level="INFO">Fills the text 'teste@teste.com' in the given field.</msg>
+<status status="PASS" starttime="20220315 16:31:40.984" endtime="20220315 16:31:41.518"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>id=password</arg>
+<arg>${user}[password]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20220315 16:31:41.518" level="INFO">Fills the text 'pwd123' in the given field.</msg>
+<status status="PASS" starttime="20220315 16:31:41.518" endtime="20220315 16:31:42.040"/>
+</kw>
+<status status="PASS" starttime="20220315 16:31:40.983" endtime="20220315 16:31:42.040"/>
+</kw>
+<kw name="Submit Credentials" library="AuthActions">
 <kw name="Click" library="Browser">
-<arg>css=.submit-button &gt;&gt; text=Cadastrar</arg>
+<arg>css=.submit-button &gt;&gt; text=Entrar</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20220314 14:25:16.700" endtime="20220314 14:25:17.250"/>
+<status status="PASS" starttime="20220315 16:31:42.041" endtime="20220315 16:31:42.578"/>
 </kw>
-<status status="PASS" starttime="20220314 14:25:16.700" endtime="20220314 14:25:17.250"/>
+<status status="PASS" starttime="20220315 16:31:42.040" endtime="20220315 16:31:42.578"/>
 </kw>
-<kw name="Alert Spans Should Be" library="Actions">
-<arg>${expected_alerts}</arg>
-<kw name="Create List" library="BuiltIn">
-<var>@{got_alerts}</var>
-<doc>Returns a list containing given items.</doc>
-<msg timestamp="20220314 14:25:17.251" level="INFO">@{got_alerts} = [ ]</msg>
-<status status="PASS" starttime="20220314 14:25:17.251" endtime="20220314 14:25:17.251"/>
+<kw name="User Should Be Logged In" library="AuthActions">
+<arg>${user}</arg>
+<kw name="Set Variable" library="BuiltIn">
+<var>${element}</var>
+<arg>css=a[href="/profile"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220315 16:31:42.579" level="INFO">${element} = css=a[href="/profile"]</msg>
+<status status="PASS" starttime="20220315 16:31:42.579" endtime="20220315 16:31:42.579"/>
 </kw>
-<kw name="Get Elements" library="Browser">
-<var>${spans}</var>
-<arg>css=span.error</arg>
-<tag>Getter</tag>
+<kw name="Set Variable" library="BuiltIn">
+<var>${expected_fullname}</var>
+<arg>${user}[name] ${user}[lastname]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220315 16:31:42.579" level="INFO">${expected_fullname} = Jacks Tests</msg>
+<status status="PASS" starttime="20220315 16:31:42.579" endtime="20220315 16:31:42.579"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${element}</arg>
+<arg>visible</arg>
+<arg>5</arg>
 <tag>PageContent</tag>
-<doc>Returns a reference to playwright element handle for all matched elements by ``selector``.</doc>
-<msg timestamp="20220314 14:25:17.772" level="INFO">Found 4 Locators successfully.</msg>
-<msg timestamp="20220314 14:25:17.772" level="INFO">${spans} = ['element=3fca037d-2a98-4430-8a41-16b8921d44d0', 'element=73926e38-6e65-493c-bbb6-f6ea6f14a139', 'element=748575fd-5b42-485b-b7cd-7afeb231fbdd', 'element=bf257ee9-f597-4acc-9279-fbe1effb8a6d']</msg>
-<status status="PASS" starttime="20220314 14:25:17.251" endtime="20220314 14:25:17.772"/>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220315 16:31:42.940" level="INFO">Waited for Element with selector css=a[href="/profile"] at state visible</msg>
+<status status="PASS" starttime="20220315 16:31:42.579" endtime="20220315 16:31:42.940"/>
 </kw>
-<for flavor="IN">
-<var>${span}</var>
-<value>@{spans}</value>
-<iter>
-<var name="${span}">element=3fca037d-2a98-4430-8a41-16b8921d44d0</var>
 <kw name="Get Text" library="Browser">
-<var>${text}</var>
-<arg>${span}</arg>
+<arg>${element}</arg>
+<arg>equal</arg>
+<arg>${expected_fullname}</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20220314 14:25:17.784" level="INFO">${text} = Cadê o seu nome?</msg>
-<status status="PASS" starttime="20220314 14:25:17.773" endtime="20220314 14:25:17.784"/>
+<status status="PASS" starttime="20220315 16:31:42.941" endtime="20220315 16:31:42.959"/>
 </kw>
-<kw name="Append To List" library="Collections">
-<arg>${got_alerts}</arg>
-<arg>${text}</arg>
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20220314 14:25:17.784" endtime="20220314 14:25:17.784"/>
-</kw>
-<status status="PASS" starttime="20220314 14:25:17.772" endtime="20220314 14:25:17.784"/>
-</iter>
-<iter>
-<var name="${span}">element=73926e38-6e65-493c-bbb6-f6ea6f14a139</var>
-<kw name="Get Text" library="Browser">
-<var>${text}</var>
-<arg>${span}</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20220314 14:25:17.794" level="INFO">${text} = E o sobrenome?</msg>
-<status status="PASS" starttime="20220314 14:25:17.784" endtime="20220314 14:25:17.794"/>
-</kw>
-<kw name="Append To List" library="Collections">
-<arg>${got_alerts}</arg>
-<arg>${text}</arg>
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20220314 14:25:17.794" endtime="20220314 14:25:17.794"/>
-</kw>
-<status status="PASS" starttime="20220314 14:25:17.784" endtime="20220314 14:25:17.794"/>
-</iter>
-<iter>
-<var name="${span}">element=748575fd-5b42-485b-b7cd-7afeb231fbdd</var>
-<kw name="Get Text" library="Browser">
-<var>${text}</var>
-<arg>${span}</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20220314 14:25:17.804" level="INFO">${text} = O email é importante também!</msg>
-<status status="PASS" starttime="20220314 14:25:17.794" endtime="20220314 14:25:17.804"/>
-</kw>
-<kw name="Append To List" library="Collections">
-<arg>${got_alerts}</arg>
-<arg>${text}</arg>
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20220314 14:25:17.804" endtime="20220314 14:25:17.804"/>
-</kw>
-<status status="PASS" starttime="20220314 14:25:17.794" endtime="20220314 14:25:17.804"/>
-</iter>
-<iter>
-<var name="${span}">element=bf257ee9-f597-4acc-9279-fbe1effb8a6d</var>
-<kw name="Get Text" library="Browser">
-<var>${text}</var>
-<arg>${span}</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<msg timestamp="20220314 14:25:17.813" level="INFO">${text} = Agora só falta a senha!</msg>
-<status status="PASS" starttime="20220314 14:25:17.804" endtime="20220314 14:25:17.813"/>
-</kw>
-<kw name="Append To List" library="Collections">
-<arg>${got_alerts}</arg>
-<arg>${text}</arg>
-<doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20220314 14:25:17.813" endtime="20220314 14:25:17.813"/>
-</kw>
-<status status="PASS" starttime="20220314 14:25:17.804" endtime="20220314 14:25:17.813"/>
-</iter>
-<status status="PASS" starttime="20220314 14:25:17.772" endtime="20220314 14:25:17.814"/>
-</for>
-<kw name="Lists Should Be Equal" library="Collections">
-<arg>${expected_alerts}</arg>
-<arg>${got_alerts}</arg>
-<doc>Fails if given lists are unequal.</doc>
-<status status="PASS" starttime="20220314 14:25:17.814" endtime="20220314 14:25:17.814"/>
-</kw>
-<status status="PASS" starttime="20220314 14:25:17.251" endtime="20220314 14:25:17.814"/>
+<status status="PASS" starttime="20220315 16:31:42.578" endtime="20220315 16:31:42.959"/>
 </kw>
 <kw name="Finish Session" library="Base" type="TEARDOWN">
 <kw name="Take Screenshot" library="Browser">
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<msg timestamp="20220314 14:25:17.966" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20220314 14:25:17.814" endtime="20220314 14:25:17.966"/>
+<msg timestamp="20220315 16:31:43.041" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220315 16:31:42.960" endtime="20220315 16:31:43.041"/>
 </kw>
-<status status="PASS" starttime="20220314 14:25:17.814" endtime="20220314 14:25:17.967"/>
+<status status="PASS" starttime="20220315 16:31:42.959" endtime="20220315 16:31:43.042"/>
 </kw>
-<tag>attempt_signup</tag>
-<tag>reqf</tag>
-<status status="PASS" starttime="20220314 14:25:09.048" endtime="20220314 14:25:17.967"/>
+<status status="PASS" starttime="20220315 16:31:33.878" endtime="20220315 16:31:43.042"/>
 </test>
-<doc>Signup Test Suite</doc>
-<status status="PASS" starttime="20220314 14:25:07.947" endtime="20220314 14:25:18.013"/>
+<doc>Login test suite</doc>
+<status status="PASS" starttime="20220315 16:31:32.843" endtime="20220315 16:31:43.094"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">attempt_signup</stat>
-<stat pass="1" fail="0" skip="0">reqf</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Signup">Signup</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login">Login</stat>
 </suite>
 </statistics>
 <errors>

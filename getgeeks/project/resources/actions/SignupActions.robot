@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Ações do sistema
+Documentation       Signup actions
 
 *** Keywords ***
 Go To Signup Form
