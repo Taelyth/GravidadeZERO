@@ -1,56 +1,53 @@
-{"level":30,"time":"2022-03-15T19:31:33.779Z","pid":36816,"hostname":"Jaque-PC","msg":"Listening on 56341"}
-{"level":30,"time":"2022-03-15T19:31:33.876Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:33.876Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:33.878Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:33.878Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:33.881Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2022-03-15T19:31:36.958Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method newBrowser"}
-{"level":30,"time":"2022-03-15T19:31:36.960Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method newPage"}
-{"level":30,"time":"2022-03-15T19:31:36.961Z","pid":36816,"hostname":"Jaque-PC","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2022-03-15T19:31:36.974Z","pid":36816,"hostname":"Jaque-PC","msg":"Changed active context"}
-{"level":30,"time":"2022-03-15T19:31:37.136Z","pid":36816,"hostname":"Jaque-PC","msg":"Video path: undefined"}
-{"level":30,"time":"2022-03-15T19:31:37.136Z","pid":36816,"hostname":"Jaque-PC","msg":"Changed active page"}
-{"level":30,"time":"2022-03-15T19:31:39.934Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method newPage"}
-{"level":30,"time":"2022-03-15T19:31:39.937Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method goTo"}
-{"level":30,"time":"2022-03-15T19:31:40.963Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method goTo"}
-{"level":30,"time":"2022-03-15T19:31:40.965Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-15T19:31:40.965Z","pid":36816,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with css=.login-form in page."}
-{"level":30,"time":"2022-03-15T19:31:40.982Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-15T19:31:40.984Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-15T19:31:40.985Z","pid":36816,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2022-03-15T19:31:41.516Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-15T19:31:41.518Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method fillText"}
-{"level":30,"time":"2022-03-15T19:31:41.519Z","pid":36816,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2022-03-15T19:31:42.038Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method fillText"}
-{"level":30,"time":"2022-03-15T19:31:42.041Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method click"}
-{"level":30,"time":"2022-03-15T19:31:42.041Z","pid":36816,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with css=.submit-button >> text=Entrar in page."}
-{"level":30,"time":"2022-03-15T19:31:42.577Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method click"}
-{"level":30,"time":"2022-03-15T19:31:42.580Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2022-03-15T19:31:42.580Z","pid":36816,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with css=a[href=\"/profile\"] in page."}
-{"level":30,"time":"2022-03-15T19:31:42.939Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2022-03-15T19:31:42.942Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method getText"}
-{"level":30,"time":"2022-03-15T19:31:42.942Z","pid":36816,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with css=a[href=\"/profile\"] in page."}
-{"level":30,"time":"2022-03-15T19:31:42.958Z","pid":36816,"hostname":"Jaque-PC","msg":"Retrieved text for element css=a[href=\"/profile\"] containing Jacks Tests"}
-{"level":30,"time":"2022-03-15T19:31:42.958Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method getText"}
-{"level":30,"time":"2022-03-15T19:31:42.960Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2022-03-15T19:31:43.040Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2022-03-15T19:31:43.042Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:43.044Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:43.046Z","pid":36816,"hostname":"Jaque-PC","msg":"Changed active context"}
-{"level":30,"time":"2022-03-15T19:31:43.046Z","pid":36816,"hostname":"Jaque-PC","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-15T19:31:43.046Z","pid":36816,"hostname":"Jaque-PC","msg":"Changed active page"}
-{"level":30,"time":"2022-03-15T19:31:43.050Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:43.052Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:43.054Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-15T19:31:43.055Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-15T19:31:43.056Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2022-03-15T19:31:43.056Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2022-03-15T19:31:43.059Z","pid":36816,"hostname":"Jaque-PC","msg":"Changed active context"}
-{"level":30,"time":"2022-03-15T19:31:43.059Z","pid":36816,"hostname":"Jaque-PC","msg":"Changing current active page"}
-{"level":30,"time":"2022-03-15T19:31:43.059Z","pid":36816,"hostname":"Jaque-PC","msg":"Changed active page"}
-{"level":30,"time":"2022-03-15T19:31:43.060Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method closeContext"}
-{"level":30,"time":"2022-03-15T19:31:43.090Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method closeContext"}
-{"level":30,"time":"2022-03-15T19:31:43.094Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:43.095Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2022-03-15T19:31:43.127Z","pid":36816,"hostname":"Jaque-PC","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2022-03-15T19:31:43.298Z","pid":36816,"hostname":"Jaque-PC","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2022-03-16T15:46:05.198Z","pid":8736,"hostname":"Jaque-PC","msg":"Listening on 61343"}
+{"level":30,"time":"2022-03-16T15:46:05.312Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:05.313Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:05.315Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:05.315Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:05.318Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-03-16T15:46:08.286Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-03-16T15:46:08.288Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-03-16T15:46:08.289Z","pid":8736,"hostname":"Jaque-PC","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-03-16T15:46:08.301Z","pid":8736,"hostname":"Jaque-PC","msg":"Changed active context"}
+{"level":30,"time":"2022-03-16T15:46:08.458Z","pid":8736,"hostname":"Jaque-PC","msg":"Video path: undefined"}
+{"level":30,"time":"2022-03-16T15:46:08.458Z","pid":8736,"hostname":"Jaque-PC","msg":"Changed active page"}
+{"level":30,"time":"2022-03-16T15:46:10.759Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method newPage"}
+{"level":30,"time":"2022-03-16T15:46:10.773Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method goTo"}
+{"level":30,"time":"2022-03-16T15:46:11.788Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method goTo"}
+{"level":30,"time":"2022-03-16T15:46:11.790Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-03-16T15:46:11.791Z","pid":8736,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with css=.login-form in page."}
+{"level":30,"time":"2022-03-16T15:46:11.808Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-03-16T15:46:11.810Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-16T15:46:11.810Z","pid":8736,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2022-03-16T15:46:12.327Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-16T15:46:12.332Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-03-16T15:46:12.332Z","pid":8736,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2022-03-16T15:46:12.847Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2022-03-16T15:46:12.850Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method click"}
+{"level":30,"time":"2022-03-16T15:46:12.850Z","pid":8736,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with css=.submit-button >> text=Entrar in page."}
+{"level":30,"time":"2022-03-16T15:46:13.385Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method click"}
+{"level":30,"time":"2022-03-16T15:46:13.388Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2022-03-16T15:46:13.388Z","pid":8736,"hostname":"Jaque-PC","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2022-03-16T15:46:13.398Z","pid":8736,"hostname":"Jaque-PC","msg":"Retrieved dom property for element id=email containing email"}
+{"level":30,"time":"2022-03-16T15:46:13.398Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2022-03-16T15:46:13.401Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-03-16T15:46:13.548Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-03-16T15:46:13.551Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:13.552Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:13.554Z","pid":8736,"hostname":"Jaque-PC","msg":"Changed active context"}
+{"level":30,"time":"2022-03-16T15:46:13.554Z","pid":8736,"hostname":"Jaque-PC","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-16T15:46:13.554Z","pid":8736,"hostname":"Jaque-PC","msg":"Changed active page"}
+{"level":30,"time":"2022-03-16T15:46:13.558Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:13.560Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:13.561Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-03-16T15:46:13.562Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-03-16T15:46:13.563Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-03-16T15:46:13.563Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-03-16T15:46:13.566Z","pid":8736,"hostname":"Jaque-PC","msg":"Changed active context"}
+{"level":30,"time":"2022-03-16T15:46:13.566Z","pid":8736,"hostname":"Jaque-PC","msg":"Changing current active page"}
+{"level":30,"time":"2022-03-16T15:46:13.566Z","pid":8736,"hostname":"Jaque-PC","msg":"Changed active page"}
+{"level":30,"time":"2022-03-16T15:46:13.568Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-03-16T15:46:13.595Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-03-16T15:46:13.598Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:13.598Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-03-16T15:46:13.629Z","pid":8736,"hostname":"Jaque-PC","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-03-16T15:46:13.871Z","pid":8736,"hostname":"Jaque-PC","msg":"End of node method closeAllBrowsers"}
