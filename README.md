@@ -45,7 +45,7 @@ Library  String
 
 `extra` Diretório com alguns estudos feitos utilizando outras urls.
 
-`logs` Diretório com os logs gerados pelo Robot Framework (não vai pro commit).
+`logs` Diretório com os logs gerados pelo Robot Framework (não vai para o commit).
 
 ---
 
@@ -128,7 +128,7 @@ Preencher com as informações do [ElephantSQL].
 
 `Users.py` Massa de dados usada nos testes do arquivo Signup.robot.
 
-`logs` Diretório com os logs gerados pelo Robot Framework (não vai pro commit).
+`logs` Diretório com os logs gerados pelo Robot Framework (não vai para o commit).
 
 `docs` Diretório contendo o arquivo em BDD utilizado para criar os testes.
 
