@@ -8,9 +8,10 @@ Test Teardown   Finish Session
 
 *** Test Cases ***
 Be a Geek
+    [Tags]      smoke
 
     # Dado que eu tenho um usuário comum
-    ${user}     Factory User Be Geek
+    ${user}     Factory User    be_geek
 
     # Faço Login na plataforma Getgeeks
     Do Login            ${user}
