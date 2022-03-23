@@ -120,6 +120,8 @@ Preencher com as informações do [ElephantSQL].
 
 `Helpers.robot` Arquivo contendo Keywords de ajuda para os testes realizados (como criar usuário pré-definido no database).
 
+`Utils.py` Arquivo com a biblioteca Faker para geração do nome (hash) das Screenshots (evidências) dos testes.
+
 `Delorean.robot` Arquivo contendo a `Task` do reset de ambiente, que é executado a cada teste.
 
 `actions` Diretório contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.

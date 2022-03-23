@@ -4,7 +4,7 @@ Documentation       Exemplo de Suite de Testes usando um Suite Setup pra execuç
 Resource        ${EXEC_DIR}/resources/Base.robot
 
 Suite Setup     Signup Without Fill Form
-Test Teardown   Finish Session
+Test Teardown   After Test
 
 *** Test Cases ***
 Name is required
