@@ -7,6 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/frontend/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/frontend/tasks" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/frontend/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/backend/users/docs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/backend/users/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/getgeeks/project/backend/users/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/getgeeks/deploys" />
     </content>
