@@ -5,7 +5,9 @@ Resource        ${EXEC_DIR}/resources/Base.robot
 
 *** Test Cases ***
 Add new user
-    ${payload}      Factory New User
+    ${user}         Factory New User
 
-    ${response}             POST User       ${payload}
+    Remove User     ${user}
+
+    ${response}             POST User       ${user}
     Status Should Be        201             ${response}
