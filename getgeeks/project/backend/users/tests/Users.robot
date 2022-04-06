@@ -11,3 +11,40 @@ Add new user
 
     ${response}             POST User       ${user}
     Status Should Be        201             ${response}
+
+    ${user_id}          Set Variable        ${response.json()}[id]
+    Should Be True      ${user_id} > 0
+
+Get user data
+    ${user}         Factory Get User
+    POST User       ${user}
+
+    ${token}                Get Token       ${user}
+    ${response}             GET User        ${token}
+
+    Status Should Be        200             ${response}
+
+    Should Be Equal As Strings      ${user}[name]       ${response.json()}[name]
+    Should Be Equal As Strings      ${user}[email]      ${response.json()}[email]
+
+    Should Be Equal As Strings      None                ${response.json()}[whatsapp]
+    Should Be Equal As Strings      None                ${response.json()}[avatar]
+    Should Be Equal As Strings      False               ${response.json()}[is_geek]
+
+Remove user
+    # Dado que existe um usuário no sistema
+    ${user}         Factory Remove User
+    POST User       ${user}
+
+    # E tenho um token desse usuário
+    ${token}                Get Token       ${user}
+
+    # Quando faço uma solicitação de remoção na rota /users
+    ${response}             DELETE User     ${token}
+
+    # Então deve retornar o status code 204 (no content)
+    Status Should Be        204             ${response}
+
+    # E ao fazer uma solicitação GET, deve retornar o status code 404 (not found)
+    ${response}             GET User        ${token}
+    Status Should Be        404             ${response}

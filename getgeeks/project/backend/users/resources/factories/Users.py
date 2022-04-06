@@ -23,3 +23,19 @@ def factory_new_user():
         'email': 'barton@teste.com',
         'password': 'pwd123'
     }
+
+
+def factory_get_user():
+    return {
+        'name': 'Gwen Stacy',
+        'email': 'stacy@teste.com',
+        'password': 'pwd123'
+    }
+
+
+def factory_remove_user():
+    return {
+        'name': 'Rony Weasley',
+        'email': 'weasley@teste.com',
+        'password': 'pwd123'
+    }

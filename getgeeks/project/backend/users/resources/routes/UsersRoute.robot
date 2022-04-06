@@ -23,3 +23,15 @@ DELETE User
     ...             expected_status=any
 
     [Return]    ${response}
+
+GET User
+    [Arguments]     ${token}
+
+    ${headers}       Create Dictionary      Authorization=${token}
+
+    ${response}     GET
+    ...             ${API_USERS}/users
+    ...             headers=${headers}
+    ...             expected_status=any
+
+    [Return]    ${response}
