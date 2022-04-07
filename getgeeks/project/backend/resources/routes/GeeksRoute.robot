@@ -1,36 +1,27 @@
 *** Settings ***
-Documentation       Users route
+Documentation       Geeks route
 
 *** Keywords ***
-POST User
-    [Arguments]     ${payload}
-
-    ${response}     POST
-    ...             ${API_USERS}/users
-    ...             json=${payload}
-    ...             expected_status=any
-
-    [Return]    ${response}
-
-DELETE User
-    [Arguments]     ${token}
+POST Geek
+    [Arguments]     ${token}        ${payload}
 
     ${headers}       Create Dictionary      Authorization=${token}
 
-    ${response}     DELETE
-    ...             ${API_USERS}/users
+    ${response}     POST
+    ...             ${API_GEEKS}/geeks
+    ...             json=${payload}
     ...             headers=${headers}
     ...             expected_status=any
 
     [Return]    ${response}
 
-GET User
+GET Geeks
     [Arguments]     ${token}
 
     ${headers}       Create Dictionary      Authorization=${token}
 
     ${response}     GET
-    ...             ${API_USERS}/users
+    ...             ${API_GEEKS}/geeks
     ...             headers=${headers}
     ...             expected_status=any
 
