@@ -30,3 +30,9 @@ jobs:
         cd getgeeks/project/backend/
         chmod +x ./run.sh
         ./run.sh
+    - name: Upload api test results
+      uses: actions/upload-artifact@v3.0.0
+      if: always()
+      with:
+        name: api-reports
+        path: getgeeks/project/backend/logs
