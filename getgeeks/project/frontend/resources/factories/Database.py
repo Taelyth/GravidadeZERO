@@ -1,5 +1,8 @@
 import os
-import config
+try:
+    import config
+except:
+    pass
 
 
 def factory_database():
