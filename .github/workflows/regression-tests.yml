@@ -64,6 +64,12 @@ jobs:
         cd getgeeks/project/
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run Web Tests
+      env:
+        BANCO: ${{ secrets.BANCO }}
+        PORTA: ${{ secrets.PORTA }}
+        SENHA: ${{ secrets.SENHA }}
+        SERVER: ${{ secrets.SERVER }}
+        USUARIO: ${{ secrets.USUARIO }}
       run: |
         cd getgeeks/project/frontend/
         chmod +x ./run.sh
