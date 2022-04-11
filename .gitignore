@@ -1,6 +1,7 @@
 /getgeeks/deploys/packages/
-/getgeeks/project/frontend/resources/factories/Database.py
 /getgeeks/project/frontend/logs/
 /yodapp/logs/
 /getgeeks/project/frontend/.pabotsuitenames
 /getgeeks/project/backend/logs/
+/config.py
+/getgeeks/project/frontend/resources/factories/Test.py
