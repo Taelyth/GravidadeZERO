@@ -3,5 +3,4 @@
 /yodapp/logs/
 /getgeeks/project/frontend/.pabotsuitenames
 /getgeeks/project/backend/logs/
-/config.py
-/getgeeks/project/frontend/resources/factories/Test.py
+/getgeeks/project/frontend/resources/factories/config.py
