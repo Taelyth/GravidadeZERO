@@ -35,4 +35,4 @@ jobs:
       if: always()
       with:
         name: api-reports
-        path: getgeeks/project/backend/logs
+        path: backend/logs
