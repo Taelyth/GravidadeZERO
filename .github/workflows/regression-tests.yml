@@ -84,7 +84,7 @@ jobs:
         cd getgeeks/project/frontend/
         chmod +x ./run.sh
         ./run.sh
-    - name: Upload api test results
+    - name: Upload web test results
       uses: actions/upload-artifact@v3.0.0
       if: always()
       with:
