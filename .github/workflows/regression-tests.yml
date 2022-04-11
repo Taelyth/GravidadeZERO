@@ -71,6 +71,8 @@ jobs:
         pip install build
         cd getgeeks/project/
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Run Browser Init
+      run: rfbrowser init
     - name: Run Web Tests
       env:
         BANCO: ${{ secrets.BANCO }}
