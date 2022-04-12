@@ -31,11 +31,11 @@ Insert User
     Execute Sql String      ${q}
 
 Users Seed
-    ${user}         Factory User    login
-    Insert User     ${user}
 
-    ${user2}        Factory User    be_geek
-    Insert User     ${user2}
+    ${users}        Users To Insert Db
 
-    ${user3}        Factory User    attempt_be_geek
-    Insert User     ${user3}
+    FOR     ${user}     IN      @{users}
+
+        Insert User     ${user}
+
+    END
