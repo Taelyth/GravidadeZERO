@@ -15,7 +15,8 @@ def users_to_insert_db():
         factory_user('be_geek'),
         factory_user('attempt_be_geek'),
         factory_user('search_alien'),
-        factory_user('search_common')
+        factory_user('search_common'),
+        factory_user('searcher')
     ]
 
 
@@ -74,6 +75,12 @@ def factory_user(target):
                 'work': 'Remoto',
                 'cost': '150'
             }
+        },
+        'searcher': {
+            'name': 'Hermione',
+            'lastname': 'Granger',
+            'email': 'hermione@teste.com',
+            'password': 'pwd123'
         },
         'search_alien': {
             'name': 'Dok',
