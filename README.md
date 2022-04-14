@@ -12,7 +12,10 @@ Projeto criado para acompanhar as aulas do curso [GravidadeZERO][QANinja] em Rob
     * [Glossário](#glossário)
   * [Getgeeks](#getgeeks)
     * [Pré-Requisitos](#pré-requisitos-1)
+      * [Delorean](#delorean)
     * [Glossário](#glossário-1)
+      * [Backend](#backend)
+      * [Frontend](#frontend)
   * [Créditos](#créditos)
 
 ---
@@ -83,36 +86,55 @@ Para os testes aprendi a subir uma aplicação Web utilizando o **Heroku** e **E
   - Localizar e substituir as URLs `http://localhost:3333` dentro da pasta **web** pela url criada na aplicação Gateway.
   - Subir a aplicação Web.
     
-Obs: o arquivo [getgeeks-package-v2.zip](getgeeks/getgeeks-package-v2.zip) foi utilizado nas aulas posteriores para "arrumar um bug" gerado na aplicação Web.
+Obs: Os arquivos [getgeeks-package-v2.zip](getgeeks/getgeeks-package-v2.zip) até o [getgeeks-package-v5.zip](getgeeks/getgeeks-package-v5.zip) foi utilizado nas aulas posteriores para "arrumar bugs" gerados nas aplicações.
 
 Para subí-lo na Heroku, é só substituir todo o conteúdo da pasta `packages\web`, aplicar a mesma alteração do `localhost` feita anteriormente e subit no git com os comandos:
 ```
-cd getgeeks/deploys/packages/web
+cd getgeeks/deploys/packages/web (substituir conforme o pacote a ser alterado)
 git add .
 git commit -m "publicando a versão 2 da aplicação web"
 git push heroku master
 ```
 * Os comandos acima estão descritos na página de Deploy da aplicação da Heroku.
 
-Para executar o arquivo [Delorean.robot](getgeeks/project/tasks/Delorean.robot), que faz a limpeza do banco de dados, é necessário criar um arquivo chamado `Database.py`, que deve conter as seguintes informações:
+---
+
+#### Delorean
+
+Para executar o arquivo [Delorean.robot](getgeeks/project/frontend/tasks/Delorean.robot), que faz a limpeza do banco de dados, é necessário criar um arquivo chamado `config.py` dentro da pasta [factories](getgeeks/project/frontend/resources/factories), que deve conter as seguintes informações:
 
 ```python
-def factory_database():
-    database = {
-        'banco': 'Preencher com o nome do database, que é igual ao User',
-        'usuario': 'Preencher com o User',
-        'senha': 'Preencher com o Password',
-        'server': 'Preencher com o Server',
-        'porta': '5432, que é a porta padrão do PostgreSQL'
-    }
-    return database
+BANCO = 'Preencher com o nome do database, que é igual ao User'
+USUARIO = 'Preencher com o User'
+SENHA = 'Preencher com o Password'
+SERVER = 'Preencher com o Server'
+PORTA = '5432, que é a porta padrão do PostgreSQL'
 ```
 Preencher com as informações do [ElephantSQL].
 
 ---
 
 ### Glossário
-**--Ainda não finalizado--**
+
+`docs` Diretório contendo o arquivo em BDD utilizado para criar os testes.
+
+#### Backend
+
+`logs` Diretório com os logs gerados pelo Robot Framework (não vai para o commit).
+
+`factories\Users.py` Massas de dados usadas nos testes.
+
+`routes` Diretório com os arquivos .robot contendo as rotas GET, POST, PUT, DELETE das APIs testadas.
+
+`Base.robot` Arquivo base com as bibliotecas e url dos testes.
+
+`Helpers.robot` Arquivo contendo Keywords de ajuda para os testes realizados (como receber o token).
+
+`Utils.py` Arquivo com função criada em Python para conversão em decimal para auxiliar em um dos testes.
+
+`tests` Diretório contendo os testes realizados, onde são chamadas as Keywords da pasta routes.
+
+#### Frontend
 
 `Base.robot` Arquivo base com as bibliotecas, url, e Setup/Teardown dos testes.
 
@@ -120,19 +142,20 @@ Preencher com as informações do [ElephantSQL].
 
 `Helpers.robot` Arquivo contendo Keywords de ajuda para os testes realizados (como criar usuário pré-definido no database).
 
+`Services.robot` Arquivo em robot para operações usando a API com a biblioteca Requests para auxiliar nos testes de Front.
+
 `Utils.py` Arquivo com a biblioteca Faker para geração do nome (hash) das Screenshots (evidências) dos testes.
 
 `Delorean.robot` Arquivo contendo a `Task` do reset de ambiente, que é executado a cada teste.
 
 `actions` Diretório contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
 
-`tests` Diretório contendo os testes realizados, onde são chamadas as Keywords do Actions.robot.
+`tests` Diretório contendo os testes realizados, onde são chamadas as Keywords da pasta actions.
 
-`Users.py` Massa de dados usada nos testes do arquivo Signup.robot.
+`factories, Database.py e Users.py` Massas de dados usadas nos testes.
 
 `logs` Diretório com os logs gerados pelo Robot Framework (não vai para o commit).
 
-`docs` Diretório contendo o arquivo em BDD utilizado para criar os testes.
 
 ---
 
@@ -149,7 +172,7 @@ Dentro da pasta `getgeeks/project`:
 
 
 <!-- links -->
-[QANinja]: https://qaninja.academy/
+[QANinja]: https://app.qaninja.com.br/
 [Yodapp]: https://yodapp-testing.vercel.app
 [ElephantSQL]: https://www.elephantsql.com/
 [Heroku]: https://www.heroku.com
